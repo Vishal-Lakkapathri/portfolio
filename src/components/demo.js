@@ -1,9 +1,30 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 
-export default class DemoApp extends Component {
-  render() {
-    return(
-      <h2>Hello Vishal</h2>
-    )
-  }
-}
+// import cloudDoodle from '../../assets/doodles/cloud.png';
+
+// const Intro = ({ message, name }: string) => (
+//   <h1
+//     className="text-white font-mono text-center"
+//   >
+//     {`${message} \n ${name}`}
+//   </h1>
+// );
+// export default class DemoApp extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <div className="parallax"></div>
+//         <div>
+//           <Intro
+//             message="Hello there!! This is"
+//             name="Vishal"
+//           />
+//           <img
+//             src={cloudDoodle}
+//             alt="Smiley face"
+//           />
+//         </div>
+//       </div>
+//     );
+//   }
+// }

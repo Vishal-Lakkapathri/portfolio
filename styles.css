@@ -58,6 +58,19 @@ p {
   line-height: 1.8;
 }
 
+.parallaxLinearGradient {
+  background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fontGillSans {
+  font-family: "Gill Sans", sans-serif;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -90,22 +103,21 @@ p {
   text-align: justify;
 }
 
+.stickyHeader {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 /* ==== GRID SYSTEM ==== */
 
-.container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+.fullWidth {
+  width: 100%;
 }
 
 .row {
   position: relative;
   width: 100%;
-}
-
-.row [class^="col"] {
-  margin: 0.5rem 2%;
-  min-height: 0.125rem;
 }
 
 .col-1,
@@ -287,7 +299,11 @@ p {
   }
 }
 
-html, body, #app, #app>div {
+/* html, body, #app, #app>div { */
   /* background-color: red; */
-  background-color: #f5f7f8;
-}
+  /* background-color: #f5f7f8; */
+  /* background-image: linear-gradient(to right top, #F24130, #262626); */
+  /* background-image: linear-gradient(#ee0979, #ff6a00); */
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  /* background-image: linear-gradient(to right top, #D836AD, #1A62F2, #3A7FD8, #91BBF2, #D2D81E); */
+/* } */
