@@ -6,14 +6,14 @@ import thunk from 'redux-thunk';
 
 import combineReducers from './src/reducers';
 
-import App from './src/components/demo';
+import HomeView from './src/components/Home';
 
 const store = createStore(combineReducers, applyMiddleware(thunk));
 
 ReactDOM.render(
   (
     <Provider store={store}>
-      <App />
+      <HomeView />
     </Provider>
   ), document.getElementById('app'),
 );
