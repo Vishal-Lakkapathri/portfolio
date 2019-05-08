@@ -59,12 +59,12 @@ p {
 }
 
 .parallaxLinearGradient {
-  background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
-  height: 70vh;
-  background-attachment: fixed;
+  background-image: linear-gradient(to right, rgba(18, 194, 233, 0.7), rgba(196, 113, 237, 0.7), rgba(246, 79, 89, 0.7)), url('./assets/profile/profile-pic-02.jpg');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
 }
 
 .fontGillSans {
