@@ -59,12 +59,35 @@ p {
 }
 
 .parallaxLinearGradient {
-  background-image: linear-gradient(to right, rgba(18, 194, 233, 0.7), rgba(196, 113, 237, 0.7), rgba(246, 79, 89, 0.7)), url('./assets/profile/profile-pic-02.jpg');
+  background-image: linear-gradient(to right, rgba(18, 194, 233, 0.7), rgba(196, 113, 237, 0.7), rgba(246, 79, 89, 0.7)), url('./assets/profile/profile-pic-02.png');
+  background-size: cover;
+  background-position: right 50% top 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.linearGradient {
+  background-image: linear-gradient(to right, rgba(18, 194, 233, 0.7), rgba(196, 113, 237, 0.7), rgba(246, 79, 89, 0.7));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 70vh;
+}
+
+.cardBackground {
+  background-color: #ffffff;
+  width: 22%;
+}
+
+.fontColor {
+  background: linear-gradient(to right, rgba(18, 194, 233, 0.7), rgba(196, 113, 237, 0.7), rgba(246, 79, 89, 0.7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.white {
+  color: rgb(255, 255, 255);
 }
 
 .fontGillSans {
