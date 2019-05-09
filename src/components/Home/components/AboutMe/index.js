@@ -38,7 +38,7 @@ export const AboutMeView = () => (
       <AboutMeImage />
       <AboutMe />
     </div>
-    <div className="border w-3/4" />
+    <div className="border w-3/4 border-red" />
     <div className="flex flex-row pt-5 w-3/4 pl-32">
       <div className="w-1/2 justify-start">
         <NewIcon
