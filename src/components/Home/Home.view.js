@@ -13,8 +13,8 @@ export default class DemoApp extends Component {
         <div className="parallaxLinearGradient p-3 flex flex-col">
           <TopBar />
           <Intro
-            message="Hello there!!"
-            name=""
+            message="Hello there!! Welcome"
+            name="I`m a front End Developer"
           />
         </div>
         <div className="py-10 px-4">
