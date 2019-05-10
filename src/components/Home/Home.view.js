@@ -23,7 +23,7 @@ export default class DemoApp extends Component {
         <div className="pb-24 pt-4">
           <Timeline />
         </div>
-        <div className="py-10 bg-grey-light">
+        <div className="py-10">
           <SkillsList />
         </div>
       </div>
