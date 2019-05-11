@@ -4,7 +4,7 @@ import { Icon } from 'antd';
 import aboutMe from '../../../../../assets/doodles/all-about-me.png';
 
 const lineOne = 'I have 3 years of experience in Software Development for Online Auction, Re marketing based and Telecommunication Company.';
-const lineTwo = 'The Initial Year of my professional life I was an Selenium Automation Tester, post apocalypse JS and React had pulled me in the Front End Development. I have worked with libraries such as Redux, WIX Navigation For React Native, Ramda JS aaand a few more!!';
+const lineTwo = 'The Initial Year of my professional life I was a Selenium Automation Tester, post apocalypse JS and React had pulled me in the Front End Development. I have worked with libraries such as Redux, WIX Navigation For React Native, Ramda JS aaand a few more!!';
 const lineThree = 'Outside work I love many things such as Rajinikanth, dogs, music and ofcourse Game of Thrones any given time.';
 
 
