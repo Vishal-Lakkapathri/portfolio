@@ -76,8 +76,8 @@ export default class StudyTimeLine extends Component {
         <div className="flex border linearGradient rounded-full h-2 flex flex-row flex-item w-3/4">
           {values.map(value => (
             <div className="flex flex-col items-center w-full justify-center">
-              <div className="w-4 h-4 rounded-full bg-white border border-red">
-                <div className="flex flex-col">
+              <div className={`flex w-4 h-4 rounded-full bg-white border border-red items-center justify-center ${value.degree === '' ? 'pt-2' : 'pt-8'}`}>
+                <div className="flex flex-col pt-20">
                   <p className="pt-3 text-xs">{value.year}</p>
                   {value.degree !== '' ? (
                     <p className="text-xs">
