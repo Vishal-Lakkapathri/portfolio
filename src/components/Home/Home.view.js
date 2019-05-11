@@ -31,8 +31,8 @@ export default class DemoApp extends Component {
             navigateTo={this.onNavigate}
           />
           <Intro
-            message="Hello there!! Welcome"
-            name="I`m a front End Developer"
+            message="Hey there!! Welcome"
+            name="I`m an Front End Developer mainly focusing on crafting a clean and readable code"
           />
           <div className="flex flex-col items-center">
             <FaAngleDoubleDown

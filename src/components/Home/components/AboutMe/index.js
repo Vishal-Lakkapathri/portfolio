@@ -3,12 +3,15 @@ import { Icon } from 'antd';
 
 import aboutMe from '../../../../../assets/doodles/all-about-me.png';
 
-const message = 'Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.';
+const lineOne = 'I have 3 years of experience in Software Development for Online Auction, Re marketing based and Telecommunication Company.';
+const lineTwo = 'The Initial Year of my professional life I was an Selenium Automation Tester, post apocalypse JS and React had pulled me in the Front End Development. I have worked with libraries such as Redux, WIX Navigation For React Native, Ramda JS aaand a few more!!';
+const lineThree = 'Outside work I love many things such as Rajinikanth, dogs, music and ofcourse Game of Thrones any given time.';
 
-const AboutMeImage = () => (
-  <div>
+
+const AboutMeImage = ({ imageSource }: string) => (
+  <div className="w-4/5">
     <img
-      src={aboutMe}
+      src={imageSource}
       alt="About Me"
     />
   </div>
@@ -16,8 +19,12 @@ const AboutMeImage = () => (
 
 const AboutMe = () => (
   <div className="pl-4">
-    <p>
-      {message}
+    <p className="aboutMeFont">
+      {lineOne}
+      <br />
+      {lineTwo}
+      <br />
+      {lineThree}
     </p>
   </div>
 );
@@ -34,8 +41,8 @@ const NewIcon = ({ iconType, iconTitle, twoToneColor, value }: string) => (
 
 export const AboutMeView = () => (
   <div className="flex flex-col items-center">
-    <div className="flex pb-5">
-      <AboutMeImage />
+    <div className="flex pb-5 items-center">
+      <AboutMeImage imageSource={aboutMe} />
       <AboutMe />
     </div>
     <div className="border w-3/4 border-red" />
