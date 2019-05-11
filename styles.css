@@ -86,6 +86,15 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
+.aboutMeFont {
+  font-family: 'Crimson Text', serif;
+  font-size: 19px;/* fallback for old browsers */
+  background: linear-gradient(to right, #c33764, #1d2671);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
 .white {
   color: rgb(255, 255, 255);
 }
