@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FaAngleDoubleDown } from 'react-icons/fa';
 
 import { Intro } from './components/IntroMessage';
 import { TopBar } from './components/TopBar';
@@ -33,6 +34,12 @@ export default class DemoApp extends Component {
             message="Hello there!! Welcome"
             name="I`m a front End Developer"
           />
+          <div className="flex flex-col items-center">
+            <FaAngleDoubleDown
+              style={{ color: '#FFB6C1', fontSize: 40 }}
+            />
+            <p className="text-white">Scroll</p>
+          </div>
         </div>
         <div className="py-10 px-4" ref={this.focusAboutMe}>
           <AboutMeView />
