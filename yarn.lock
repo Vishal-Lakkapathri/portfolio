@@ -5342,7 +5342,7 @@ rc-pagination@~1.17.7:
     prop-types "^15.5.7"
     react-lifecycles-compat "^3.0.4"
 
-rc-progress@~2.3.0:
+rc-progress@^2.3.0, rc-progress@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/rc-progress/-/rc-progress-2.3.0.tgz#cfbd07ff9026c450100980de209a92650e24f313"
   dependencies:
