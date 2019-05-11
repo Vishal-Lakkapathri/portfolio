@@ -37,10 +37,10 @@ export default class DemoApp extends Component {
         <div className="py-10 px-4" ref={this.focusAboutMe}>
           <AboutMeView />
         </div>
-        <div className="pb-24 pt-4" ref={this.focusMySkills}>
+        <div className="pb-24 pt-4">
           <StudyTimeLine />
         </div>
-        <div className="py-10">
+        <div className="py-10" ref={this.focusMySkills}>
           <SkillsList />
         </div>
       </div>

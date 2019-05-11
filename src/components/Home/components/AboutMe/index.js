@@ -69,7 +69,7 @@ export const AboutMeView = () => (
       <div className="w-1/2 justify-start">
         <NewIcon
           iconType="mail"
-          iconTitle="E-mail"
+          iconTitle="Mail"
           twoToneColor="#12c2e9"
           value="vishal.lakkapathri@gmail.com"
         />
