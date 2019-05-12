@@ -32,7 +32,7 @@ export default class DemoApp extends Component {
           />
           <Intro
             message="Hey there!! Welcome"
-            name="I`m an Front End Developer mainly focusing on crafting a clean and readable code"
+            name="I`m a Front End Developer mainly focusing on crafting a clean and readable code"
           />
           <div className="flex flex-col items-center">
             <FaAngleDoubleDown
