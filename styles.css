@@ -59,7 +59,7 @@ p {
 }
 
 .parallaxLinearGradient {
-  background-image: linear-gradient(to right, rgba(18, 194, 233, 0.7), rgba(196, 113, 237, 0.7), rgba(246, 79, 89, 0.7)), url('../assets/profile/profile-pic-02.png');
+  background-image: linear-gradient(to right, rgba(18, 194, 233, 0.7), rgba(196, 113, 237, 0.7), rgba(246, 79, 89, 0.7)), url('./profile-pic-02.png');
   background-size: cover;
   background-position: right 50% top 50%;
   background-repeat: no-repeat;
