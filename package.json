@@ -6,7 +6,7 @@
   "repository": "https://github.com/Vishal-Lakkapathri/vishal-portfolio.git",
   "author": "<vishal.lakkapathri@copart.com>",
   "license": "MIT",
-  "homepage": "https://vishal-lakkapathri.github.io",
+  "homepage": "https://vishal-lakkapathri.github.io/vishal-portfolio/",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
