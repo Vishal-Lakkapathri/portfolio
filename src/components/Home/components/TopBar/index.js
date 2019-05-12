@@ -1,6 +1,6 @@
 import React from 'react';
 
-const vishalResume = '../../../../../assets/files/vishal-lakkapathri-resume.pdf';
+const vishalResume = '../../../../../assets/files/vishal-lakkapathri.v1.pdf';
 
 const Tabs = ({ title, handleOnClick }: { title: string, handleOnClick: Function }) => (
   <button
