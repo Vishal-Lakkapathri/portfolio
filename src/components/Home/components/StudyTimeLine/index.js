@@ -56,9 +56,15 @@ const values = [
   },
   {
     year: 2019,
-    degree: 'FrontEnd Dev',
+    degree: 'Software engineer',
     name: 'Copart',
-    duration: '2017-Present',
+    duration: '2022',
+  },
+  {
+    year: 2022,
+    degree: 'Senior Software engineer',
+    name: 'One.com',
+    duration: '2022-Present',
   },
 ];
 

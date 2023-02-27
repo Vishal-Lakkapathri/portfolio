@@ -1,8 +1,7 @@
 import React from 'react';
+import moment from 'moment';
 
-// const vishalResume = '../../../../../assets/files/vishal-lakkapathri.v1.pdf';
-
-const vishalResume = 'https://tinyurl.com/y2dba64r';
+const vishalResume = 'https://tinyurl.com/vishalresumev9';
 
 const Tabs = ({ title, handleOnClick }: { title: string, handleOnClick: Function }) => (
   <button
@@ -30,9 +29,10 @@ const DownloadResume = ({ title, onButtonPress }: { title: string, onButtonPress
 );
 
 export const TopBar = ({ onDownloadResume, navigateTo }: Function) => (
-  <div className="flex stickyHeader items-center">
-    <div className="w-2/3"><h2 className="text-white font-light">Vishal Lakkapathri</h2></div>
-    <div className="flex justify-end pl-24">
+  <div className="flex stickyHeader items-center justify-between">
+    <div><h2 className="text-white font-light">Vishal Lakkapathri</h2></div>
+    <div><h2 className="text-white font-light">{moment().format('DD/MM/YYYY').toString()}</h2></div>
+    <div>
       <Tabs
         title="Skills"
         handleOnClick={() => navigateTo('focusMySkills')}

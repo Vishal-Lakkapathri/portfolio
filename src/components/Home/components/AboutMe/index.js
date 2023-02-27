@@ -1,12 +1,18 @@
 import React from 'react';
 import { Icon } from 'antd';
+import moment from 'moment';
 
 import aboutMe from '../../../../../assets/doodles/all-about-me.png';
 
-const lineOne = 'I have 3 years of experience in Software Development for Online Auction, Re marketing based and Telecommunication Company.';
-const lineTwo = 'The Initial Year of my professional life I was a Selenium Automation Tester, post apocalypse JS and React had pulled me in the Front End Development. I have worked with libraries such as Redux, WIX Navigation For React Native, Ramda JS aaand a few more!!';
-const lineThree = 'Outside work I love many things such as Rajinikanth, dogs, music and ofcourse Game of Thrones any given time.';
+const calculateAge = (dateOfBirth: string) => {
+  const currentYear = moment();
+  const yearOfbirthMoment = moment(dateOfBirth, 'DD MM YYYY');
+  return currentYear.diff(yearOfbirthMoment, 'years');
+};
 
+const lineOne = `Having over ${calculateAge('2/02/2016')} years of experience in software development, I have worked for companies in the web hosting, online auction, remarketing, and telecommunications.`;
+const lineTwo = 'Initially, I was a Selenium Automation Tester, but post-apocalypse JS and React drew me into Front End Development. I have worked with libraries such as Typescript, Redux, React Navigations, Firebase, WIX Navigation For React Native, Ramda JS aaand a many more!!';
+const lineThree = 'My interests outside of work include reading books, binge watching movies, listening to music.';
 
 const AboutMeImage = ({ imageSource }: string) => (
   <div className="w-4/5">
@@ -60,7 +66,7 @@ export const AboutMeView = () => (
           iconType="heart"
           iconTitle="Age"
           twoToneColor="#eb2f96"
-          value="25 yrs"
+          value={calculateAge('24/11/1993')}
         />
       </div>
     </div>
